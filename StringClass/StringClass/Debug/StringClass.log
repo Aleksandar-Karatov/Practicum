@@ -1,0 +1,5 @@
+﻿  String.cpp
+D:\OOP FMI\Practicum\StringClass\StringClass\String.cpp(111,17): warning C4018: '>=': signed/unsigned mismatch
+  StringClass.cpp
+  Generating Code...
+  StringClass.vcxproj -> D:\OOP FMI\Practicum\StringClass\Debug\StringClass.exe

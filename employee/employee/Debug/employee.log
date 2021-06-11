@@ -1,0 +1,28 @@
+﻿  employee.cpp
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(22,11): error C2589: 'bool': illegal token on right side of '::'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(22,56): error C2270: '==': modifiers not allowed on nonmember functions
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(22,56): error C2805: binary 'operator ==' has too few parameters
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(23,19): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(23,36): error C2248: 'Employee::name': cannot access private member declared in class 'Employee'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(7): message : see declaration of 'Employee::name'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(5): message : see declaration of 'Employee'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(23,47): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(23,65): error C2248: 'Employee::age': cannot access private member declared in class 'Employee'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(8): message : see declaration of 'Employee::age'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(5): message : see declaration of 'Employee'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(29,14): error C2440: '=': cannot convert from 'const char [1]' to 'char *'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(29,12): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(37,36): error C2660: 'strcpy_s': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(28,30): message : see declaration of 'strcpy_s'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(47,19): error C2143: syntax error: missing ';' before '&'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(47,11): error C7550: 'Employee::{ctor}': the qualified name in this context names a constructor, not a type
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(48,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(48,1): error C2801: 'operator =' must be a non-static member
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(48,1): error C2059: syntax error: '{'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(48,1): error C2143: syntax error: missing ';' before '{'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(48,1): error C2447: '{': missing function header (old-style formal list?)
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(62,31): error C2660: 'strcpy_s': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(28,30): message : see declaration of 'strcpy_s'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(72,33): error C2664: 'Employee::Employee(const Employee &)': cannot convert argument 1 from 'const char [7]' to 'char *'
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(72,20): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\OOP FMI\Practicum\employee\employee\employee.cpp(59,11): message : see declaration of 'Employee::Employee'
